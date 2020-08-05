@@ -1,0 +1,70 @@
+body{
+	background: black;
+	margin: 0;
+	font-family: Chelsea Market;
+}
+.square{
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.6%;
+	border-radius: 20px;
+	transition: background .6s;
+}
+#container {
+	max-width: 600px;
+	margin: 2% auto;
+}
+h1 {
+	color: white;
+	font-weight: normal;
+	text-align: center;
+	background-color: steelblue;
+	margin:0;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding: 20px 0;
+}
+span{
+	color: black;
+}
+#newColor{
+	background: white;
+	height: 30px;
+	text-align: center;
+}
+#messegeDisplay{
+	background: black;
+}
+.style{
+	background-color: steelblue;
+	color: white;
+}
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700px;
+	font-size: inherit;
+	height: 100%;
+	font-family: Chelsea Market;
+	transition: all .3s;
+	outline: none;
+}
+
+button:hover{
+	background-color: steelblue;
+	color: white;
+	transition: .3s;
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+#messegeDisplay{
+	display: inline-block;
+	width: 20%;
+}
+
